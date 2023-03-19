@@ -1,12 +1,12 @@
 export enum Roles {
     top = 'TOP',
-    mid = 'MID',
+    middle = 'MIDDLE',
     jungle = 'JUNGLE',
     bottom = 'BOTTOM',
     utility = 'UTILITY'
   }
   
-  export type PlayRate = {
+export type PlayRate = {
     [championId: string]: {
         [role in Roles]: { playRate: number }
     }
