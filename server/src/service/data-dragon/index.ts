@@ -1,0 +1,1 @@
+export {default as getAllChampions} from "./get-champions";
