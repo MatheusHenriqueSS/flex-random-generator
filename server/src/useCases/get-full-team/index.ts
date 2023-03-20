@@ -2,10 +2,7 @@ import { getAllChampions } from "../../service/data-dragon";
 import { getPlayRateByRole } from "../get-playrate-by-role";
 import { getRandomChampions } from "../get-random-champion-ids";
 
-export async function getFullTeam(difficult: number, options?: {
-    region?: string,
-    tag?: string,
-}) {
+export async function getFullTeam(difficult: number) {
     const champions = await getAllChampions();
     const playRateByRole = await getPlayRateByRole();
 
