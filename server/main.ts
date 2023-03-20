@@ -1,8 +1,6 @@
 
-import * as dotenv from "dotenv";
 import express from "express";
 import { FullTeamController } from "./src/controllers/get-full-team";
-dotenv.config();
 
 
 async function main() {
