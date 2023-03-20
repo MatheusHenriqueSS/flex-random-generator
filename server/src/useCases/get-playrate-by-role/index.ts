@@ -1,8 +1,8 @@
 import { ChampionPlayRate } from "../../entities/champion-play-rate";
 import { PlayRate, Roles } from "../../entities/play-rate";
-import { getPlayRateByChampionId } from "../../service/playRate";
+import { getPlayRateByChampionId } from "../../service/play-rate";
 
-type ChampionsByRoles = {
+export type ChampionsByRoles = {
     [key in Roles]: ChampionPlayRate[]
 }
 
@@ -33,6 +33,8 @@ function parsePlayRates(playRates: PlayRate) {
 
     return roles;
 }
+
+
 
 export async function getPlayRateByRole() {
     const playRatesByChampionId = await getPlayRateByChampionId();

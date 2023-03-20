@@ -1,9 +1,9 @@
 export enum Roles {
-    top = 'TOP',
-    middle = 'MIDDLE',
-    jungle = 'JUNGLE',
-    bottom = 'BOTTOM',
-    utility = 'UTILITY'
+    TOP = 'TOP',
+    JUNGLE = 'JUNGLE',
+    MIDDLE = 'MIDDLE',
+    BOTTOM = 'BOTTOM',
+    UTILITY = 'UTILITY'
   }
   
 export type PlayRate = {
