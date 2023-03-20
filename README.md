@@ -4,7 +4,8 @@ Flex Random Generator is a simple Node.js Express server that generates a random
 ### Installation 
 To install Flex Random Generator, run the following command:
 ``` 
-cd server npm install
+cd server 
+npm install
 ``` 
 
 ### Usage
